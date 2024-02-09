@@ -6,11 +6,11 @@
     font-family: 'Roboto Flex', sans-serif;
     box-sizing: border-box;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     /* Styles for screens up to 768px wide (e.g., tablets) */
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1500px) {
     /* Styles for screens up to 480px wide (e.g., smartphones) */
 }
 
