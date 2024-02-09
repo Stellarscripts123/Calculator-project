@@ -6,13 +6,6 @@
     font-family: 'Roboto Flex', sans-serif;
     box-sizing: border-box;
 }
-@media screen and (max-width: 1000px) {
-    /* Styles for screens up to 768px wide (e.g., tablets) */
-}
-
-@media screen and (max-width: 1500px) {
-    /* Styles for screens up to 480px wide (e.g., smartphones) */
-}
 
 body {
     width: 100%;
@@ -33,7 +26,7 @@ body {
 }
 
 input {
-    width: 1000px;
+    width: 320px;
     height: 100x;
     border: none;
     padding: 24px;
@@ -51,7 +44,7 @@ input::placeholder {
 
 button {
     border: none;
-    width: 300px;
+    width: 120px;
     height: 60px;
     margin: 5px;
     border-radius: 20%;
