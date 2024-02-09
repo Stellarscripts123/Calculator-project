@@ -6,6 +6,13 @@
     font-family: 'Roboto Flex', sans-serif;
     box-sizing: border-box;
 }
+@media screen and (max-width: 768px) {
+    /* Styles for screens up to 768px wide (e.g., tablets) */
+}
+
+@media screen and (max-width: 480px) {
+    /* Styles for screens up to 480px wide (e.g., smartphones) */
+}
 
 body {
     width: 100%;
@@ -52,14 +59,7 @@ button {
     color: white;
     font-size: 20px;
     cursor: pointer;
-@media screen and (max-width: 768px) {
-    /* Styles for screens up to 768px wide (e.g., tablets) */
-}
-
-@media screen and (max-width: 480px) {
-    /* Styles for screens up to 480px wide (e.g., smartphones) */
-}
-
+    
 }
 .equalbutton {
     background-color: orange;
