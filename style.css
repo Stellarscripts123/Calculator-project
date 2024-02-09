@@ -12,8 +12,6 @@
 
 
 body {
-    width: 100%;
-    height: 100vh;
     display: flex;
     flex-direction:column;
     justify-content: center;
@@ -30,8 +28,7 @@ body {
 }
 
 input {
-    width: 470px;
-    height: 100x;
+    
     border: none;
     padding: 24px;
     margin: 10px;
