@@ -1,0 +1,73 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+
+.calculator {
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+
+input {
+    width: 1000px;
+    height: 100x;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: white;
+}
+input::placeholder {
+    color: white;
+}
+
+button {
+    border: none;
+    width: 300px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 20%;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.equalbutton {
+    background-color: orange;
+}
+
+.operator {
+    color: rgb(81, 168, 81);
+}
+
+button:hover {
+    background-color: #2e3743; /* Adjust the color to your desired lighter shade */
+}
+
+
+
+input[type="text"] {
+    pointer-events: none;
+}
